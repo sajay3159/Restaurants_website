@@ -28,20 +28,3 @@
   object-fit: cover;
   /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }
-
-.summary {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* center the element */
-  padding: 25px 20px;
-  background-color: #3f3f3f;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  z-index: 11;
-  border-radius: 1rem;
-  text-align: center;
-  color: white;
-}
-.summary h1 {
-  margin-top: 0px;
-}
