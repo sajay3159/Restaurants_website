@@ -12,6 +12,17 @@ const Header = () => {
       </header>
       <div className={classes["main-image"]}>
         <img src={mealsItem} alt="A table full of delicious food!" />
+        <div className={classes.summary}>
+          <h1>Delicious Food, Delivered to you</h1>
+          <p>
+            Choose favorite meal from our broad selection of avaiable meals and
+            enjoy a delicious lunch or dinner at home.
+          </p>
+          <p>
+            All our meals are cooked with high quality ingredients, just-in-time
+            and of course by experienced chefs!
+          </p>
+        </div>
       </div>
     </Fragment>
   );
